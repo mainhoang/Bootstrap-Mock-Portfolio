@@ -9,8 +9,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	line-height: 1.9;
-    font-size: 18px;
+	/*line-height: 1.9;*/
+    /*font-size: 18px;*/
     margin-top: 20px;
 }
 
@@ -23,6 +23,9 @@ body {
 	background-image: url("images/concrete-seamless.png");
 	color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.9;
 	margin-bottom: 100px;
 }
 
@@ -33,6 +36,10 @@ nav, main {
 main {
 	padding-top: 130px;
 	padding-bottom: 40px;
+}
+
+label {
+	font-weight: normal;
 }
 
 #profilePic {
@@ -47,7 +54,11 @@ main {
 .main-background, .aside-background {
 	background-color: white;
 	border: 1px solid #ddd;
-	padding: 10px 30px 30px 30px;
+	padding: 20px 30px 30px 30px;
+}
+
+.main-content .page-header {
+	padding-bottom: 19px;
 }
 
 .aside-background {
@@ -96,6 +107,13 @@ main {
 
 .social-img a {
 	margin-bottom: 0;
+}
+
+.submit-btn {
+	font-size: 18px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 20px;
 }
 
 .thumbnail {
