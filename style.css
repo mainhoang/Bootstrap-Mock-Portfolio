@@ -2,10 +2,22 @@
 	border-radius: 0 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	color: #4aaaab;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: normal;
+	color: white;
+	background-color: #4aaaa5;
+	position: relative;
+	text-align: center;
+	padding: 20px;
+	z-index: 5;
+	bottom: 80px;
 }
 
 p {
@@ -126,6 +138,14 @@ label {
 	height: 200px;
 }
 
+.gallery-heading {
+	margin-left: 0;
+	margin-right: 0;
+    /*position: absolute;*/
+    width: 100%;
+    
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -179,6 +199,11 @@ label {
 		max-width: 100%;
 		min-width: 100%;
 		padding-right: 0;
+	}
+
+	.mobile-portfolio {
+		max-width: 100%;
+		min-width: 100%;
 	}
 
 }
